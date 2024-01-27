@@ -30,3 +30,9 @@
 
 *Again Make Your Commits to the repo*
 
+# How to arrange different python files as a single pckage?
+* Inside the eDevOp directory, create a __init__.py file with `touch __init__.py`. 
+* Import python files in this directory wit `from . import mymodule.py` && `from . import test_mymodule.py`
+## Now these files are in a single package 'eDevOp'..How to test if the packaging is successful?
+* Go back to the terminal and type `python` to call python interpreter
+* use `import eDevOp as ed`  and try `ed.test_mymodule.unittest.main()` .. and see the unittests has successully run on terminal. Push your changes to GitHub
