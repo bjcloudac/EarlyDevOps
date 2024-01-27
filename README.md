@@ -15,18 +15,18 @@
 * make first commit to the repo by `git add *` then `git status` to make sure it adds mymodule.py and readme.md then `git commit -m "Adding first python file and readme to the repo"` then `git push` to add to your cloud repo.
 
 * Now create a test file called test_mymodule.py and generate the code like:
-`import unittest
-from mymodule import square
+`import unittest`
+`from mymodule import square`
 
-class TestSquare(unittest.TestCase):
-    def test_square(self):
-        self.assertEqual(square(10), 100)
-        self.assertEqual(square(0), 0)
-        self.assertEqual(square(-5), 25)
+`class TestSquare(unittest.TestCase):`
+    `def test_square(self):`
+        `self.assertEqual(square(10), 100)`
+        `self.assertEqual(square(0), 0)`
+        `self.assertEqual(square(-5), 25)`
 
-if __name__ == '__main__':
-    unittest.main()`
-* #python3 -m unittest test_mymodule.py - Use this line to run the tests from terminal
+`if __name__ == '__main__':`
+    `unittest.main()`
+* #`python3 -m unittest test_mymodule.py` - Use this line to run the tests from terminal
 
 *Again Make Your Commits to the repo*
 
