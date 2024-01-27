@@ -1,5 +1,5 @@
 import unittest
-from mymodule import square
+from eDevOp.mymodule import square
 
 class TestSquare(unittest.TestCase):
     def test_square(self):
